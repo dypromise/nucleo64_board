@@ -75,14 +75,16 @@ void gpio_toggle(gpio_port_t port, gpio_pin_t pin);
 
 void gpio_enable_clk(gpio_port_t port);
 
-int gpio_isr_register(gpio_port_t port, gpio_pin_t pin, void (*callback)(void));
+int
+gpio_irt_register(gpio_port_t port, gpio_pin_t pin, void (*callback)(void *),
+                  void *args);
 
-int gpio_isr_deregister(gpio_port_t port, gpio_pin_t pin);
+int gpio_irt_deregister(gpio_port_t port, gpio_pin_t pin);
 
-int gpio_isr_enable(gpio_port_t port, gpio_pin_t pin, gpio_init_t *gpio_init,
+int gpio_irt_enable(gpio_port_t port, gpio_pin_t pin, gpio_init_t *gpio_init,
                     gpio_edge_t edge);
 
-int gpio_isr_disable(gpio_port_t port, gpio_pin_t pin);
+int gpio_irt_disable(gpio_port_t port, gpio_pin_t pin);
 
 
 #ifdef __cplusplus

@@ -7,13 +7,18 @@
 #define MM_MSG_BASE "GPIO"
 #endif
 
-static int register_callback_(gpio_pin_t pin, void (*callback)(void));
+static int
+register_callback_(gpio_pin_t pin, void (*callback)(void *), void *args);
 
 static int set_isr_(gpio_pin_t pin, uint8_t enable);
 
-static void (*callback_list_[16])(void);
+static void (*callback_func_list_[16])(void *);
 
-/*Configure GPIO init*/
+static void (*callback_arg_list_[16])(void *);
+
+/******************************************************************************
+ * GPIO APIs
+ ******************************************************************************/
 void gpio_init(gpio_port_t port, gpio_pin_t pin, gpio_init_t *gpio_init) {
     gpio_enable_clk(port);
     gpio_init->Pin = pin;
@@ -54,31 +59,36 @@ void gpio_enable_clk(gpio_port_t port) {
     }
 }
 
+/******************************************************************************
+ * GPIO external interrupt APIs
+ ******************************************************************************/
 int
-gpio_isr_register(gpio_port_t port, gpio_pin_t pin, void (*callback)(void)) {
-    return register_callback_(pin, callback);
+gpio_irt_register(gpio_port_t port, gpio_pin_t pin, void (*callback)(void *),
+                  void *args) {
+    return register_callback_(pin, callback, args);
 }
 
 
-int gpio_isr_deregister(gpio_port_t port, gpio_pin_t pin) {
-    return register_callback_(pin, NULL);
+int gpio_irt_deregister(gpio_port_t port, gpio_pin_t pin) {
+    return register_callback_(pin, NULL, NULL);
 }
 
 
-int gpio_isr_enable(gpio_port_t port, gpio_pin_t pin, gpio_init_t *gpio_setting,
+int gpio_irt_enable(gpio_port_t port, gpio_pin_t pin, gpio_init_t *gpio_setting,
                     gpio_edge_t edge) {
-    // Set GPIO
     gpio_setting->Mode = ((edge == RISING_EDGE) ? GPIO_MODE_IT_RISING :
                           (edge == FALLING_EDGE) ? GPIO_MODE_IT_FALLING :
                           (edge == BOTH_EDGE) ? GPIO_MODE_IT_RISING_FALLING
                                               : 0);
+    /* Include gpio_init function */
     gpio_init(port, pin, gpio_setting);
+
+    /* Enable interrupt */
     return set_isr_(pin, 1);
 }
 
 
-int gpio_isr_disable(gpio_port_t port, gpio_pin_t pin) {
-    // Set GPIO
+int gpio_irt_disable(gpio_port_t port, gpio_pin_t pin) {
     gpio_init_t gpio_setting;
     gpio_setting.Mode = GPIO_MODE_INPUT;
     gpio_setting.Pull = NOPULL;
@@ -90,7 +100,8 @@ int gpio_isr_disable(gpio_port_t port, gpio_pin_t pin) {
 /******************************************************************************
  * Privates
  ******************************************************************************/
-static int register_callback_(gpio_pin_t pin, void (*callback)(void)) {
+static int
+register_callback_(gpio_pin_t pin, void (*callback)(void *), void *args) {
     // Set NVIC and put the callback
     int idx;
     switch (pin) {
@@ -146,10 +157,11 @@ static int register_callback_(gpio_pin_t pin, void (*callback)(void)) {
             MM_DEBUG_ERROR("Wrong Pin selected!\r\n");
             return MM_ERROR;
     }
-    if (NULL != callback_list_[idx]) {
+    if (NULL != callback_func_list_[idx]) {
         MM_DEBUG_WARNING("Replacing an interrupt handler...\r\n");
     }
-    callback_list_[idx] = callback;
+    callback_func_list_[idx] = callback;
+    callback_arg_list_[idx] = args;
     return MM_OK;
 }
 
@@ -227,6 +239,7 @@ void EXTI0_IRQHandler(void) {
     /* EXTI line interrupt detected */
     if (__HAL_GPIO_EXTI_GET_IT(GPIO_PIN_0) != RESET) {
         __HAL_GPIO_EXTI_CLEAR_IT(GPIO_PIN_0);
+        callback_func_list_[0](callback_arg_list_[0]);
 
     }
 }
@@ -235,7 +248,7 @@ void EXTI1_IRQHandler(void) {
     /* EXTI line interrupt detected */
     if (__HAL_GPIO_EXTI_GET_IT(GPIO_PIN_1) != RESET) {
         __HAL_GPIO_EXTI_CLEAR_IT(GPIO_PIN_1);
-
+        callback_func_list_[1](callback_arg_list_[1]);
     }
 }
 
@@ -243,7 +256,7 @@ void EXTI2_IRQHandler(void) {
     /* EXTI line interrupt detected */
     if (__HAL_GPIO_EXTI_GET_IT(GPIO_PIN_2) != RESET) {
         __HAL_GPIO_EXTI_CLEAR_IT(GPIO_PIN_2);
-
+        callback_func_list_[2](callback_arg_list_[2]);
     }
 }
 
@@ -251,7 +264,7 @@ void EXTI3_IRQHandler(void) {
     /* EXTI line interrupt detected */
     if (__HAL_GPIO_EXTI_GET_IT(GPIO_PIN_3) != RESET) {
         __HAL_GPIO_EXTI_CLEAR_IT(GPIO_PIN_3);
-
+        callback_func_list_[3](callback_arg_list_[3]);
     }
 }
 
@@ -259,7 +272,7 @@ void EXTI4_IRQHandler(void) {
     /* EXTI line interrupt detected */
     if (__HAL_GPIO_EXTI_GET_IT(GPIO_PIN_4) != RESET) {
         __HAL_GPIO_EXTI_CLEAR_IT(GPIO_PIN_4);
-
+        callback_func_list_[4](callback_arg_list_[4]);
     }
 }
 
@@ -267,22 +280,23 @@ void EXTI9_5_IRQHandler(void) {
     /* EXTI line interrupt detected */
     if (__HAL_GPIO_EXTI_GET_IT(GPIO_PIN_5) != RESET) {
         __HAL_GPIO_EXTI_CLEAR_IT(GPIO_PIN_5);
-
+        callback_func_list_[5](callback_arg_list_[5]);
     }
     if (__HAL_GPIO_EXTI_GET_IT(GPIO_PIN_6) != RESET) {
         __HAL_GPIO_EXTI_CLEAR_IT(GPIO_PIN_6);
-
+        callback_func_list_[6](callback_arg_list_[6]);
     }
     if (__HAL_GPIO_EXTI_GET_IT(GPIO_PIN_7) != RESET) {
         __HAL_GPIO_EXTI_CLEAR_IT(GPIO_PIN_7);
-
+        callback_func_list_[7](callback_arg_list_[7]);
     }
     if (__HAL_GPIO_EXTI_GET_IT(GPIO_PIN_8) != RESET) {
         __HAL_GPIO_EXTI_CLEAR_IT(GPIO_PIN_8);
-
+        callback_func_list_[8](callback_arg_list_[8]);
     }
     if (__HAL_GPIO_EXTI_GET_IT(GPIO_PIN_9) != RESET) {
         __HAL_GPIO_EXTI_CLEAR_IT(GPIO_PIN_9);
+        callback_func_list_[9](callback_arg_list_[9]);
     }
 }
 
@@ -290,21 +304,26 @@ void EXTI15_10_IRQHandler(void) {
     /* EXTI line interrupt detected */
     if (__HAL_GPIO_EXTI_GET_IT(GPIO_PIN_10) != RESET) {
         __HAL_GPIO_EXTI_CLEAR_IT(GPIO_PIN_10);
+        callback_func_list_[10](callback_arg_list_[10]);
     }
     if (__HAL_GPIO_EXTI_GET_IT(GPIO_PIN_11) != RESET) {
         __HAL_GPIO_EXTI_CLEAR_IT(GPIO_PIN_11);
+        callback_func_list_[11](callback_arg_list_[11]);
     }
     if (__HAL_GPIO_EXTI_GET_IT(GPIO_PIN_12) != RESET) {
         __HAL_GPIO_EXTI_CLEAR_IT(GPIO_PIN_12);
+        callback_func_list_[12](callback_arg_list_[12]);
     }
     if (__HAL_GPIO_EXTI_GET_IT(GPIO_PIN_13) != RESET) {
         __HAL_GPIO_EXTI_CLEAR_IT(GPIO_PIN_13);
-        callback_list_[13]();
+        callback_func_list_[13](callback_arg_list_[13]);
     }
     if (__HAL_GPIO_EXTI_GET_IT(GPIO_PIN_14) != RESET) {
         __HAL_GPIO_EXTI_CLEAR_IT(GPIO_PIN_14);
+        callback_func_list_[14](callback_arg_list_[14]);
     }
     if (__HAL_GPIO_EXTI_GET_IT(GPIO_PIN_15) != RESET) {
         __HAL_GPIO_EXTI_CLEAR_IT(GPIO_PIN_15);
+        callback_func_list_[15](callback_arg_list_[15]);
     }
 }

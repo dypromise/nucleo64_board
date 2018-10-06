@@ -1,10 +1,10 @@
-#include <system_init.h>
-#include <common.h>
+#include "stdlib.h"
 #include "adc.h"
+#include "common.h"
 
 #ifdef MM_MSG_BASE
 #undef MM_MSG_BASE
-#define MM_MSG_BASE "ADC"
+#define MM_MSG_BASE "adc.c"
 #endif
 
 /* Fuctions that converts MM library name to manufacturer name */
@@ -17,17 +17,21 @@ static void _enable_adc_clk(adc_device_t dev);
 
 static void _adc_error_handler();
 
+static int _adc_pin_set(gpio_port_t port, gpio_pin_t pin);
+
 /******************************************************************************
  * Public API Functions
  ******************************************************************************/
 /* Initialization functions */
 int adc_init(adc_t *obj, adc_init_t *settings) {
 
+    adc_handle_t *handler = malloc(sizeof(ADC_HandleTypeDef));
+    obj->handler = handler;
     /* Configure the ADC peripheral */
-    obj->handler.Instance = _get_device(settings->device);
+    obj->handler->Instance = _get_device(settings->device);
 
     /* De-initialize before initialization */
-    if (HAL_ADC_DeInit(&obj->handler) != HAL_OK) {
+    if (HAL_ADC_DeInit(obj->handler) != HAL_OK) {
         /* ADC de-initialization Error */
         MM_DEBUG_ERROR("ADC device de-initialization error!\r\n");
         return MM_ERROR;
@@ -38,36 +42,34 @@ int adc_init(adc_t *obj, adc_init_t *settings) {
     _enable_adc_clk(settings->device);
 
     // Asynchronous clock mode, input ADC clock not divided 
-    obj->handler.Init.ClockPrescaler = ADC_CLOCKPRESCALER_PCLK_DIV4;
+    obj->handler->Init.ClockPrescaler = ADC_CLOCKPRESCALER_PCLK_DIV4;
     // 12-bit resolution for converted data 
-    obj->handler.Init.Resolution = ADC_RESOLUTION_12B;
+    obj->handler->Init.Resolution = ADC_RESOLUTION_12B;
     // Right-alignment for converted data 
-    obj->handler.Init.DataAlign = ADC_DATAALIGN_RIGHT;
+    obj->handler->Init.DataAlign = ADC_DATAALIGN_RIGHT;
     // Sequencer disabled (ADC conversion on only 1 channel: channel set on rank 1) 
-    obj->handler.Init.ScanConvMode = DISABLE;
+    obj->handler->Init.ScanConvMode = DISABLE;
     // EOC flag picked-up to indicate conversion end 
-    obj->handler.Init.EOCSelection = DISABLE;
+    obj->handler->Init.EOCSelection = DISABLE;
     // Continuous mode disabled to have only 1 conversion at each conversion trig 
-    obj->handler.Init.ContinuousConvMode = DISABLE;
+    obj->handler->Init.ContinuousConvMode = DISABLE;
     // Parameter discarded because sequencer is disabled 
-    obj->handler.Init.NbrOfConversion = 1;
+    obj->handler->Init.NbrOfConversion = 1;
     // Parameter discarded because sequencer is disabled 
-    obj->handler.Init.DiscontinuousConvMode = DISABLE;
+    obj->handler->Init.DiscontinuousConvMode = DISABLE;
     // Parameter discarded because sequencer is disabled 
-    obj->handler.Init.NbrOfDiscConversion = 0;
+    obj->handler->Init.NbrOfDiscConversion = 0;
     // Software start to trig the 1st conversion manually, without external event 
-    obj->handler.Init.ExternalTrigConv = ADC_EXTERNALTRIGCONV_T1_CC1;
+    obj->handler->Init.ExternalTrigConv = ADC_EXTERNALTRIGCONV_T1_CC1;
     // Parameter discarded because software trigger chosen 
-    obj->handler.Init.ExternalTrigConvEdge = ADC_EXTERNALTRIGCONVEDGE_NONE;
+    obj->handler->Init.ExternalTrigConvEdge = ADC_EXTERNALTRIGCONVEDGE_NONE;
     // DMA one-shot mode selected (not applied to this example)
-    obj->handler.Init.DMAContinuousRequests = DISABLE;
-
-    if (HAL_ADC_Init(&obj->handler) != HAL_OK) {
+    obj->handler->Init.DMAContinuousRequests = DISABLE;
+    if (HAL_ADC_Init(obj->handler) != HAL_OK) {
         /* ADC initialization Error */
         MM_DEBUG_ERROR("ADC device initialization error!\r\n");
         return MM_ERROR;
     }
-
     /* Configure ADC regular channel */
     ADC_ChannelConfTypeDef sConfig;
     // Sampled channel number
@@ -78,8 +80,7 @@ int adc_init(adc_t *obj, adc_init_t *settings) {
     sConfig.SamplingTime = ADC_SAMPLETIME_3CYCLES;
     // Parameter discarded because offset correction is disabled
     sConfig.Offset = 0;
-
-    if (HAL_ADC_ConfigChannel(&obj->handler, &sConfig) != HAL_OK) {
+    if (HAL_ADC_ConfigChannel(obj->handler, &sConfig) != HAL_OK) {
         /* Channel Configuration Error */
         MM_DEBUG_ERROR("ADC channel configuration Error!\r\n");
         return MM_ERROR;
@@ -94,29 +95,22 @@ int adc_init(adc_t *obj, adc_init_t *settings) {
         return MM_ERROR;
     }
 #endif
+
+    /* Pin init */
+    if (_adc_pin_set(settings->adc_port, settings->adc_pin) != MM_OK) {
+        MM_DEBUG_ERROR("ADC device pin initialization error!\r\n");
+        return MM_ERROR;
+    }
     return MM_OK;
 }
 
-/* Configuration functions */
-int adc_pin_set(gpio_port_t port, gpio_pin_t pin) {
-    /* Enable GPIO clock */
-    gpio_enable_clk(port);
-    /* ADC Channel GPIO pin configuration */
-    gpio_init_t gpio_setting = {
-            .Mode = GPIO_MODE_ANALOG,
-            .Pull = NOPULL,
-            .Speed = GPIO_SPEED_FREQ_VERY_HIGH
-    };
-    gpio_init(port, pin, &gpio_setting);
-    return MM_OK;
-}
 
 /* Operation functions */
-uint32_t adc_measure(adc_t *obj) {
+int adc_measure(adc_t *obj, uint32_t *res) {
     /*##-3- Start the conversion process #####################################*/
-    if (HAL_ADC_Start(&obj->handler) != HAL_OK) {
-        /* Start Conversation Error */
-        _adc_error_handler();
+    if (HAL_ADC_Start(obj->handler) != HAL_OK) {
+        MM_DEBUG_ERROR("ADC start conversion error\n");
+        return MM_ERROR;
     }
 
     /*##-4- Wait for the end of conversion ###################################*/
@@ -126,29 +120,40 @@ uint32_t adc_measure(adc_t *obj) {
          For simplicity reasons, this example is just waiting till the end of the
          conversion, but application may perform other tasks while conversion
          operation is ongoing. */
-    if (HAL_ADC_PollForConversion(&obj->handler, 10) != HAL_OK) {
+    status_t status;
+    if ((status = HAL_ADC_PollForConversion(obj->handler, 1000)) != HAL_OK) {
         /* End Of Conversion flag not set on time */
-        _adc_error_handler();
+        if (status == HAL_TIMEOUT) {
+            MM_DEBUG_ERROR("ADC conversion timeout\n");
+            return MM_ERROR;
+        }
     }
 
     /* Check if the continuous conversion of regular channel is finished */
-    if ((HAL_ADC_GetState(&obj->handler) & HAL_ADC_STATE_EOC_REG) ==
-        HAL_ADC_STATE_EOC_REG) {
+    if (HAL_IS_BIT_SET(HAL_ADC_GetState(obj->handler), HAL_ADC_STATE_REG_EOC)) {
         /*##-5- Get the converted value of regular channel####################*/
-        return HAL_ADC_GetValue(&obj->handler);
+        *res = HAL_ADC_GetValue(obj->handler);
+        return MM_OK;
     }
-    MM_DEBUG_ERROR("ADC conversion error!\r\n");
     return MM_ERROR;
 }
+
 
 /******************************************************************************
  * Private Functions
  ******************************************************************************/
 static ADC_TypeDef *_get_device(adc_device_t dev) {
-    static ADC_TypeDef *const _device_table[] = {
-            ADC1, ADC2, ADC3
-    };
-    return _device_table[(int) dev];
+    switch (dev) {
+        case MM_ADC1:
+            return ADC1;
+        case MM_ADC2:
+            return ADC2;
+        case MM_ADC3:
+            return ADC3;
+        default:
+            MM_DEBUG_ERROR("Wrong ADC device!\r\n");
+    }
+    return NULL;
 }
 
 
@@ -182,4 +187,18 @@ static void _enable_adc_clk(adc_device_t dev) {
 // TODO: no implementation!
 static void _adc_error_handler() {
     MM_DEBUG_ERROR("In _adc_error_handler!\r\n");
+}
+
+
+int _adc_pin_set(gpio_port_t port, gpio_pin_t pin) {
+    /* Enable GPIO clock */
+    gpio_enable_clk(port);
+    /* ADC Channel GPIO pin configuration */
+    gpio_init_t gpio_setting = {
+            .Mode = GPIO_MODE_ANALOG,
+            .Pull = NOPULL,
+            .Speed = GPIO_SPEED_LOW
+    };
+    gpio_init(port, pin, &gpio_setting);
+    return MM_OK;
 }

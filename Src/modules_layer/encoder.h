@@ -15,18 +15,18 @@
 extern "C" {
 #endif
 
-#define ENCODER_L_TIMER         2
-#define ENCODER_L_CHA_PORT      GPIOA
-#define ENCODER_L_CHA_PIN       GPIO_PIN_15
-#define ENCODER_L_PIN_PULLUP    GPIO_PULLUP
-#define ENCODER_L_CHB_PORT      GPIOB
-#define ENCODER_L_CHB_PIN       GPIO_PIN_3
-#define ENCODER_R_TIMER         5
-#define ENCODER_R_CHA_PORT      GPIOA
-#define ENCODER_R_CHA_PIN       GPIO_PIN_0
-#define ENCODER_R_PIN_PULLUP    GPIO_PULLUP
-#define ENCODER_R_CHB_PORT      GPIOA
-#define ENCODER_R_CHB_PIN       GPIO_PIN_1
+#define ENCODER_L_TIMER         MM_TIM2
+#define ENCODER_L_CHA_PORT      PORTA
+#define ENCODER_L_CHA_PIN       PIN_15
+#define ENCODER_L_PIN_PULLUP    PULLUP
+#define ENCODER_L_CHB_PORT      PORTB
+#define ENCODER_L_CHB_PIN       PIN_3
+#define ENCODER_R_TIMER         MM_TIM5
+#define ENCODER_R_CHA_PORT      PORTA
+#define ENCODER_R_CHA_PIN       PIN_0
+#define ENCODER_R_PIN_PULLUP    PULLUP
+#define ENCODER_R_CHB_PORT      PORTA
+#define ENCODER_R_CHB_PIN       PIN_1
 
 struct encoder_data {
     int32_t left;

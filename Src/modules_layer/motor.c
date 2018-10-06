@@ -1,3 +1,4 @@
+#include <tim.h>
 #include "motor.h"
 #include "tim.h"
 #include "gpio.h"
@@ -35,33 +36,39 @@ static inline void right_set_backward_(void) {
  */
 status_t motor_init(void) {
 
-    /* init GPIO */
+    /* GPIO init */
     gpio_init_t gpio_setting = {
             .Pull = NOPULL,
             .Mode = GPIO_MODE_OUTPUT_PP,
             .Speed = GPIO_SPEED_HIGH
     };
     gpio_init(motorLEFT_PORT, motorLEFT_PIN, &gpio_setting);
-    gpio_setting.Mode = GPIO_MODE_OUTPUT_PP;
     gpio_init(motorRIGHT_PORT, motorRIGHT_PIN, &gpio_setting);
 
+    /* PWM timer pin */
     tim_port_pin(LEFT_PWM_TIM, LEFT_PWM_PORT, LEFT_PWM_PIN,
-                 NOPULL);    //left  PWM
+                 NOPULL);
     tim_port_pin(RIGHT_PWM_TIM, RIGHT_PWM_PORT, RIGHT_PWM_PIN,
-                 NOPULL);    //right PWM
+                 NOPULL);
 
-    motor_dir_forward();
-
-    // PWM settings
+    /* PWM settings */
     pwm_init_t pwm_setting = {    // PWM is at 10kHz
             .device = LEFT_PWM_TIM,
             .clock_frequency = 180000000,
-            .period = 10000
+            .period = 10000,
+            .pwm_port = LEFT_PWM_PORT,
+            .pwm_pin = LEFT_PWM_PIN,
     };
     pwm_init(&_timer, &pwm_setting);
+    pwm_setting.pwm_port = RIGHT_PWM_PORT;
+    pwm_setting.pwm_pin = RIGHT_PWM_PIN;
+    pwm_init(&_timer, &pwm_setting);
+
 
     /* Firstly set speed 0 */
     motor_speed_percent(CH_BOTH, 0);
+    motor_dir_forward();
+
     return MM_OK;
 }
 
@@ -74,7 +81,6 @@ int32_t motor_speed_percent(motor_ch_t channel, int32_t speed) {
     }
     switch (channel) {
         case CH_LEFT:
-            /* Set the pulse value for channel 1 */
             if (go_backword) {
                 left_set_backward_();
             } else {
@@ -84,7 +90,6 @@ int32_t motor_speed_percent(motor_ch_t channel, int32_t speed) {
             break;
 
         case CH_RIGHT:
-            /* Set the pulse value for channel 4 */
             if (go_backword) {
                 right_set_backward_();
             } else {
@@ -94,7 +99,6 @@ int32_t motor_speed_percent(motor_ch_t channel, int32_t speed) {
             break;
 
         case CH_BOTH:
-            /* Set the pulse value for all channel */
             if (go_backword) {
                 left_set_backward_();
                 right_set_backward_();
@@ -107,7 +111,7 @@ int32_t motor_speed_percent(motor_ch_t channel, int32_t speed) {
             break;
 
         default:
-            /* Return Error in other cases */
+            MM_DEBUG_ERROR("Wrong motor channel!\r\n");
             return 0;
     }
 
@@ -123,7 +127,6 @@ int32_t motor_speed_permyriad(motor_ch_t channel, int32_t speed) {
     }
     switch (channel) {
         case CH_LEFT:
-            /* Set the pulse value for channel 1 */
             if (go_backword) {
                 left_set_backward_();
             } else {
@@ -133,7 +136,6 @@ int32_t motor_speed_permyriad(motor_ch_t channel, int32_t speed) {
             break;
 
         case CH_RIGHT:
-            /* Set the pulse value for channel 4 */
             if (go_backword) {
                 right_set_backward_();
             } else {
@@ -143,7 +145,6 @@ int32_t motor_speed_permyriad(motor_ch_t channel, int32_t speed) {
             break;
 
         case CH_BOTH:
-            /* Set the pulse value for all channel */
             if (go_backword) {
                 left_set_backward_();
                 right_set_backward_();
@@ -156,11 +157,9 @@ int32_t motor_speed_permyriad(motor_ch_t channel, int32_t speed) {
             break;
 
         default:
-            /* Return Error in other cases */
+            MM_DEBUG_ERROR("Wrong motor channel!\r\n");
             return 0;
     }
-
-    /* return OK */
     return speed;
 }
 
@@ -185,74 +184,45 @@ void motor_dir_rotate_left(void) {
 }
 
 status_t motor_start(motor_ch_t channel) {
-    status_t result;
     switch (channel) {
         case CH_LEFT:
-            /* Start channel 1 */
-            result = pwm_start(&_timer, LEFT_PWM_CHANNEL);
-            if (result != MM_OK) {
-                return result;
-            }
+            if (pwm_start(&_timer, LEFT_PWM_CHANNEL) != MM_OK)
+                return MM_ERROR;
             break;
         case CH_RIGHT:
-            /* Start channel 4 */
-            result = pwm_start(&_timer, RIGHT_PWM_CHANNEL);
-            if (result != MM_OK) {
-                return result;
-            }
+            if (pwm_start(&_timer, RIGHT_PWM_CHANNEL) != MM_OK)
+                return MM_ERROR;
             break;
         case CH_BOTH:
-            /* Start channel 1 */
-            result = pwm_start(&_timer, LEFT_PWM_CHANNEL);
-            if (result != MM_OK) {
-                return result;
-            }
-            /* Start channel 4 */
-            result = pwm_start(&_timer, RIGHT_PWM_CHANNEL);
-            if (result != MM_OK) {
-                return result;
-            }
+            if (pwm_start(&_timer, LEFT_PWM_CHANNEL) != MM_OK)
+                return MM_ERROR;
+            if (pwm_start(&_timer, RIGHT_PWM_CHANNEL) != MM_OK)
+                return MM_ERROR;
             break;
         default:
             return MM_ERROR;
     }
-    /* Return OK */
     return MM_OK;
 }
 
 status_t motor_stop(motor_ch_t channel) {
-    status_t result;
     switch (channel) {
         case CH_LEFT:
-            /* Start channel 1 */
-            result = pwm_stop(&_timer, LEFT_PWM_CHANNEL);
-            if (result != MM_OK) {
-                return result;
-            }
+            if (pwm_stop(&_timer, LEFT_PWM_CHANNEL) != MM_OK)
+                return MM_ERROR;
             break;
         case CH_RIGHT:
-            /* Start channel 4 */
-            result = pwm_stop(&_timer, RIGHT_PWM_CHANNEL);
-            if (result != MM_OK) {
-                return result;
-            }
+            if (pwm_stop(&_timer, RIGHT_PWM_CHANNEL) != MM_OK)
+                return MM_ERROR;
             break;
         case CH_BOTH:
-            /* Start channel 1 */
-            result = pwm_stop(&_timer, LEFT_PWM_CHANNEL);
-            if (result != MM_OK) {
-                return result;
-            }
-            /* Start channel 4 */
-            result = pwm_stop(&_timer, RIGHT_PWM_CHANNEL);
-            if (result != MM_OK) {
-                return result;
-            }
+            if (pwm_stop(&_timer, LEFT_PWM_CHANNEL) != MM_OK)
+                return MM_ERROR;
+            if (pwm_stop(&_timer, RIGHT_PWM_CHANNEL) != MM_OK)
+                return MM_ERROR;
             break;
-
         default:
             return MM_ERROR;
     }
-    /* Return OK */
     return MM_OK;
 }

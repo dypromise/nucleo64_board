@@ -21,18 +21,11 @@ public:
     Wall examineWall(int row, int col, Direction wallDir,
                      PositionController &mousePos) override;
 
-    Wall
-    examineWall(Position pos, Direction wallDir, PositionController &mousePos) {
-        return examineWall(pos.row, pos.col, wallDir, mousePos);
-    }
 
     /* Overriding MoverInterface methods */
     void moveTo(int row, int col, Direction destDir,
                 PositionController &mousePos) override;
 
-    void moveTo(Position pos, Direction destDir, PositionController &mousePos) {
-        return moveTo(pos.row, pos.col, destDir, mousePos);
-    }
 
     void rotateTo(Direction destDir, PositionController &mousePos) override;
 };

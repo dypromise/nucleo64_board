@@ -63,6 +63,8 @@ typedef struct {
     tim_device_t device;
     uint32_t clock_frequency;
     uint16_t period;
+    gpio_port_t pwm_port;
+    gpio_pin_t pwm_pin;
 } pwm_init_t;
 
 

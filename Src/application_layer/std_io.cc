@@ -12,7 +12,7 @@ StdIO::StdIO(bool allowFile) :
 /*******************************************************************************
  * Public Methods
  ******************************************************************************/
-int StdIO::open(char *filename, char *mode) {
+int StdIO::open(char *filename, const char *mode) {
     if (!allowFile) {
         printf("This StdIO does not allow file");
         return 0;

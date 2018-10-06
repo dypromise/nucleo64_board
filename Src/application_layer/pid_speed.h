@@ -8,7 +8,7 @@
 #ifndef PID_SPEED_H_
 #define PID_SPEED_H_
 
-#include "../chip_layer/common_header.h"
+#include <common.h>
 #include "pid.h"
 
 #ifdef __cplusplus

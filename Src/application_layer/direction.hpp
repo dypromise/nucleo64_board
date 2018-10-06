@@ -53,4 +53,5 @@ inline Direction operator--(Direction &orig, int) {
     return rVal;
 }
 
+
 #endif /* DIRECTION_HPP_ */

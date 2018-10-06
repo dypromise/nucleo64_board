@@ -15,22 +15,11 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
-
+#if defined(STM32)
 /*******************************************************************************
  * Device Specific Enumerations
  ******************************************************************************/
-#if defined(STM32)
-typedef enum _rotary_encoder_device_t {
-    MM_E_TIM1 = 0,
-    MM_E_TIM2,
-    MM_E_TIM3,
-    MM_E_TIM4,
-    MM_E_TIM5,
-    MM_E_TIM6
-} rotary_encoder_device_t;
-#else
-#error "Please define device driver! " __FILE__ "(e.g. USE_HAL_DRIVER)\n"
-#endif
+typedef tim_device_t rotary_encoder_device_t;
 
 /*******************************************************************************
  * Common Enumerations
@@ -51,7 +40,15 @@ typedef struct {
     rotary_encoder_device_t device;
     rotary_encoder_dir_t direction;
     uint16_t prescaler;
+    gpio_port_t encoder_port1;
+    gpio_pin_t encoder_pin1;
+    gpio_port_t encoder_port2;
+    gpio_pin_t encoder_pin2;
 } rotary_encoder_init_t;
+
+#else
+#error "Please define device driver! " __FILE__ "(e.g. USE_HAL_DRIVER)\n"
+#endif
 
 /*******************************************************************************
  * API functions

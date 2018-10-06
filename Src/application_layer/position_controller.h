@@ -1,7 +1,7 @@
 #ifndef PositionController_h
 #define PositionController_h
 
-#include "direction.h"
+#include "direction.hpp"
 #include "position.h"
 
 /*******************************************************************************

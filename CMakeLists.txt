@@ -16,7 +16,7 @@ set(SIZE arm-none-eabi-size)
 
 SET(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F446RETx_FLASH.ld)
 
-add_definitions(-DSTM32F4 -DSTM32)
+add_definitions(-DSTM32F4 -DSTM32 -DMM_DEBUG -DMM_DEBUG_TO_TERMINAL)
 
 #Uncomment for hardware floating point
 #SET(FPU_FLAGS "-mfloat-abi=hard -mfpu=fpv4-sp-d16")
@@ -24,6 +24,7 @@ add_definitions(-DSTM32F4 -DSTM32)
 
 #Uncomment for software floating point
 #SET(FPU_FLAGS "-mfloat-abi=soft")
+SET(FPU_FLAGS "-mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp")
 
 SET(COMMON_FLAGS "-mcpu=cortex-m4 ${FPU_FLAGS} -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs")
 
@@ -50,6 +51,11 @@ include_directories(Inc Drivers/STM32F4xx_HAL_Driver/Inc
         Src/peripheral_layer
         Src/modules_layer
         Src/application_layer
+
+        Drivers/FreeRTOS/Source/CMSIS_RTOS
+        Drivers/FreeRTOS/Source/include
+        Drivers/FreeRTOS/Source/portable/GCC/ARM_CM4F
+        Drivers/FreeRTOS/Source/portable/MemMang
         )
 
 add_executable(${PROJECT_NAME}.elf ${SOURCES} ${LINKER_SCRIPT})

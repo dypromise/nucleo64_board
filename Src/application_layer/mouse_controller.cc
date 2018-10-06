@@ -4,7 +4,7 @@
 #include "finder_Interface.h"
 #include "maze.h"
 #include "mouse_controller.h"
-#include "queue.hpp"
+#include "queue.h"
 
 /*******************************************************************************
  * Constructor

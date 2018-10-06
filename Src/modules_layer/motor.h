@@ -10,6 +10,7 @@
 
 
 #include "common.h"
+#include "tim.h"
 
 typedef enum {
     CH_RIGHT = 0x0,
@@ -18,18 +19,18 @@ typedef enum {
 } motor_ch_t;
 
 
-#define motorLEFT_PORT GPIOB
-#define motorLEFT_PIN GPIO_PIN_6
-#define motorRIGHT_PORT GPIOB
-#define motorRIGHT_PIN GPIO_PIN_8
-#define LEFT_PWM_TIM (tim_device_t)4
-#define LEFT_PWM_PORT GPIOB
-#define LEFT_PWM_PIN GPIO_PIN_7
-#define RIGHT_PWM_TIM (tim_device_t)4
-#define RIGHT_PWM_PORT GPIOB
-#define RIGHT_PWM_PIN GPIO_PIN_9
-#define LEFT_PWM_CHANNEL (tim_ch_t)2
-#define RIGHT_PWM_CHANNEL (tim_ch_t)4
+#define motorLEFT_PORT          PORTB
+#define motorLEFT_PIN           PIN_6
+#define motorRIGHT_PORT         PORTB
+#define motorRIGHT_PIN          PIN_8
+#define LEFT_PWM_TIM            MM_TIM4
+#define LEFT_PWM_PORT           PORTB
+#define LEFT_PWM_PIN            PIN_7
+#define RIGHT_PWM_TIM           MM_TIM4
+#define RIGHT_PWM_PORT          PORTB
+#define RIGHT_PWM_PIN           PIN_9
+#define LEFT_PWM_CHANNEL        CH_4
+#define RIGHT_PWM_CHANNEL       CH_4
 #ifdef __cplusplus
 extern "C" {
 #endif

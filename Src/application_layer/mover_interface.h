@@ -8,7 +8,7 @@
 #ifndef MOVERINTERFACE_HPP_
 #define MOVERINTERFACE_HPP_
 
-#include "direction.h"
+#include "direction.hpp"
 #include "position_controller.h"
 
 class MoverInterface {

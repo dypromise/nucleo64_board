@@ -138,7 +138,7 @@ void MazeIO::loadMazeFromFile(char *fileName) {
 
 void MazeIO::saveMazeToFile(char *fileName) {
     // check maze object
-    if (NULL == maze) {
+    if (nullptr == maze) {
         printf("No maze object");
         return;
     }

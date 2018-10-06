@@ -10,7 +10,7 @@ FakeIO::FakeIO() {
 /*******************************************************************************
  * Public Methods
  ******************************************************************************/
-int FakeIO::open(char *filename, char *mode) {
+int FakeIO::open(char *filename, const char *mode) {
     return 0;
 }
 

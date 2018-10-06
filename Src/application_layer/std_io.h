@@ -16,7 +16,7 @@ public:
     explicit StdIO(bool allowFile);
 
     // Overridden methods
-    int open(char *filename, char *mode) override;
+    int open(char *filename, const char *mode) override;
 
     int getchar() override;
 

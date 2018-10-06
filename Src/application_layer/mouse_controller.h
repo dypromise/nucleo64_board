@@ -7,7 +7,7 @@
 #include "position_controller.h"
 #include "finder_Interface.h"
 #include "mover_interface.h"
-#include "queue.hpp"
+#include "queue.h"
 
 /*******************************************************************************
  * Class Declaration

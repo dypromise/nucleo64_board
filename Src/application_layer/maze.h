@@ -6,7 +6,7 @@
 #include "cell.h"
 #include "common_maze.h"
 #include "config_maze.h"
-#include "direction.h"
+#include "direction.hpp"
 #include "position.h"
 #include "wall.h"
 #include "maze_io.h"

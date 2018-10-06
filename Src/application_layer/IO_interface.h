@@ -17,7 +17,7 @@ public:
     IOInterface() : _file(nullptr) {}
 
     // replacement for fopen()
-    virtual int open(char *filename, char *mode) = 0;
+    virtual int open(char *filename, const char *mode) = 0;
 
     // replacement for fgetc()
     virtual int getchar() = 0;

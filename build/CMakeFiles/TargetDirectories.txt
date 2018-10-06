@@ -1,4 +1,4 @@
-/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles/UPLOAD.dir
-/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles/rebuild_cache.dir
-/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles/edit_cache.dir
-/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles/mms_test.elf.dir
+/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles/UPLOAD.dir
+/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles/rebuild_cache.dir
+/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles/edit_cache.dir
+/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles/mms_test.elf.dir

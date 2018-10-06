@@ -11,7 +11,7 @@
 #include "config_maze.h"
 #include "wall.h"
 #include "cell.h"
-#include "direction.h"
+#include "direction.hpp"
 #include "position.h"
 #include "position_controller.h"
 #include "IO_interface.h"

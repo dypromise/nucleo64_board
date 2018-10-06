@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.12.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/dingyang/Public/GitHub/micromouse_projs/mms_test
+CMAKE_SOURCE_DIR = /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build
+CMAKE_BINARY_DIR = /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

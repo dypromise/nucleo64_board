@@ -55,7 +55,7 @@ public:
     size_t read(void *ptr, size_t size, size_t count) override;
 
     /* Overidden Methods */
-    int open(char *filename, char *mode) override;
+    int open(char *filename, const char *mode) override;
 
     int getchar() override;
 };

@@ -10,13 +10,10 @@
 #define MM_MSG_BASE "ENCODER"
 #endif
 
-/* Fuctions that get the timer encoder using */
 static TIM_TypeDef *_get_device(rotary_encoder_device_t dev);
 
-/* Get a HAL library handler from the object */
 static inline TIM_HandleTypeDef *_get_handler(rotary_encoder_t *obj);
 
-/* Peripheral clock function */
 static void _enable_device_clk(rotary_encoder_device_t dev);
 
 /******************************************************************************
@@ -84,17 +81,24 @@ int rotary_encoder_init(rotary_encoder_t *obj, rotary_encoder_init_t *setting) {
             MM_DEBUG_ERROR("Incorrect encoder direction");
             return MM_ERROR;
     }
-
-    int8_t status = HAL_TIM_Encoder_Init(handler, &rotary_encoder_config);
-    if (MM_OK != status) {
+    if (MM_OK != HAL_TIM_Encoder_Init(handler, &rotary_encoder_config)) {
         MM_DEBUG_WARNING("Error init encoder!\r\n");
+        return MM_ERROR;
     }
-    return status;
+
+    if (tim_port_pin(setting->device, setting->encoder_port1,
+                     setting->encoder_pin1, PULLUP) == MM_OK &&
+        tim_port_pin(setting->device, setting->encoder_port2,
+                     setting->encoder_pin2, PULLUP) == MM_OK)
+        return MM_OK;
+    else {
+        MM_DEBUG_WARNING("Error init encoder pin!\r\n");
+        return MM_ERROR;
+    }
 }
 
 
 int rotary_encoder_start(rotary_encoder_t *obj) {
-    // get handler and enable timer
     TIM_HandleTypeDef *handler = _get_handler(obj);
     if (NULL == handler) {
         return MM_ERROR;
@@ -108,7 +112,6 @@ int rotary_encoder_start(rotary_encoder_t *obj) {
 
 
 int rotary_encoder_stop(rotary_encoder_t *obj) {
-    // get handler and enable timer
     TIM_HandleTypeDef *handler = _get_handler(obj);
     if (NULL == handler) {
         return MM_ERROR;
@@ -122,7 +125,6 @@ int rotary_encoder_stop(rotary_encoder_t *obj) {
 
 
 uint32_t rotary_encoder_set(rotary_encoder_t *obj, uint32_t input) {
-    // get handler and enable timer
     TIM_HandleTypeDef *handler = _get_handler(obj);
     if (NULL == handler) {
         return 0;
@@ -134,7 +136,6 @@ uint32_t rotary_encoder_set(rotary_encoder_t *obj, uint32_t input) {
 
 
 uint32_t rotary_encoder_count(rotary_encoder_t *obj) {
-    // get handler and enable timer
     TIM_HandleTypeDef *handler = _get_handler(obj);
     if (NULL == handler) {
         return 0;
@@ -161,25 +162,24 @@ static inline TIM_HandleTypeDef *_get_handler(rotary_encoder_t *obj) {
 
 static void _enable_device_clk(rotary_encoder_device_t dev) {
     switch (dev) {
-        case MM_E_TIM1:
+        case MM_TIM1:
             __HAL_RCC_TIM1_CLK_ENABLE();
             break;
-        case MM_E_TIM2:
+        case MM_TIM2:
             __HAL_RCC_TIM2_CLK_ENABLE();
             break;
-        case MM_E_TIM3:
+        case MM_TIM3:
             __HAL_RCC_TIM3_CLK_ENABLE();
             break;
-        case MM_E_TIM4:
+        case MM_TIM4:
             __HAL_RCC_TIM4_CLK_ENABLE();
             break;
-        case MM_E_TIM5:
+        case MM_TIM5:
             __HAL_RCC_TIM5_CLK_ENABLE();
             break;
-        case MM_E_TIM6:
+        case MM_TIM6:
             __HAL_RCC_TIM6_CLK_ENABLE();
             break;
-
         default:
             MM_DEBUG_ERROR("Wrong Timer device!\r\n");
     }

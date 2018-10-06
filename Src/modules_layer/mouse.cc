@@ -2,7 +2,7 @@
 #include "mouse.h"
 #include "config_measurements.h"
 #include "infrared.h"
-#include "command.h"
+#include "cmd.h"
 #include "tick.h"
 
 /*******************************************************************************
@@ -29,8 +29,8 @@ Wall RealMouse::examineWall(int row, int col, Direction wallDir,
     Wall ret = wallError;
     if (wallDir == mouseDir) {
         // Use front sensor
-        ret = (range.front > (MEASURE_RANGE_F_NEAR_DETECT - 100)) ? wall
-                                                                  : empty;
+        ret = (range.front_left > (MEASURE_RANGE_F_NEAR_DETECT - 100)) ? wall
+                                                                       : empty;
     } else if (wallDir == (++mouseDir)) {
         // Use left sensor
         ret = (range.left > MEASURE_RANGE_L_WALL_DETECT) ? wall : empty;

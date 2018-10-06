@@ -72,18 +72,17 @@ int tim_port_pin(tim_device_t dev, gpio_port_t port, gpio_pin_t pin,
     return MM_OK;
 }
 
+
 // PWM functions
 int pwm_init(tim_t *obj, pwm_init_t *setting) {
 
-    /* allocate device handler for HAL driver */
+    /* Allocate device handler for HAL driver */
     obj->ext_handler = (extlib_handle_t) malloc(sizeof(TIM_HandleTypeDef));
     TIM_HandleTypeDef *handler = _get_handler(obj);
     if (NULL == handler) {
         MM_DEBUG_ERROR("Memory allocation error!\r\n");
         return MM_ERROR;
     }
-
-    /* Associate the TIM device */
     handler->Instance = _get_device(setting->device);
 
     /* De-initialize before initialization */
@@ -93,10 +92,16 @@ int pwm_init(tim_t *obj, pwm_init_t *setting) {
         return MM_ERROR;
     }
 
-    /* Initialize TIM hardware */
-    _enable_device_clk(setting->device); // Enable device Clock first
+    /* Enable Timer RCC Clock first */
+    _enable_device_clk(setting->device);
 
-    /* Timer init */
+    /* Timer pin config */
+    if (tim_port_pin(setting->device, setting->pwm_port, setting->pwm_pin,
+                     PULLUP) != MM_OK) {
+        MM_DEBUG_ERROR("Error init timer device!\r\n");
+        return MM_ERROR;
+    }
+    /* Timer core config */
     handler->Init.CounterMode = TIM_COUNTERMODE_UP;
     handler->Init.Period = setting->period;
     handler->Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
@@ -104,18 +109,17 @@ int pwm_init(tim_t *obj, pwm_init_t *setting) {
             _get_bus_freq(setting->device) / setting->clock_frequency - 1;
     uint32_t freq;
     freq = _get_bus_freq(setting->device) / (handler->Init.Prescaler + 1);
-
     MM_DEBUG_MSG("Requested clock freq: %lu\r\n", setting->clock_frequency);
     MM_DEBUG_MSG("Requested pulse freq: %lu\r\n",
                  setting->clock_frequency / setting->period);
     MM_DEBUG_MSG("Selected clock freq: %lu\r\n", freq);
     MM_DEBUG_MSG("Selected pulse freq: %lu\r\n", freq / handler->Init.Period);
 
-    int8_t status = HAL_TIM_PWM_Init(handler);
-    if (MM_OK != status) {
-        MM_DEBUG_WARNING("Error init timer device!\r\n");
+    if (MM_OK != HAL_TIM_PWM_Init(handler)) {
+        MM_DEBUG_ERROR("Error init timer device!\r\n");
+        return MM_ERROR;
     }
-    return (status_t) status;
+    return MM_OK;
 }
 
 
@@ -147,36 +151,33 @@ int pwm_permyriad(tim_t *obj, tim_ch_t channel, uint16_t duty_cycle_permyriad) {
     uint32_t pulse_width = (period * duty_cycle_permyriad) / 10000;
     config.Pulse = pulse_width;
 
-    int8_t status = HAL_TIM_PWM_ConfigChannel(handler, &config, channel);
-    if (MM_OK != status) {
+    if (HAL_TIM_PWM_ConfigChannel(handler, &config, channel) != HAL_OK) {
         MM_DEBUG_WARNING("Error setting PWM ch!\r\n");
+        return MM_ERROR;
     }
-    return (status_t) status;
+    return MM_OK;
 }
 
 
 status_t pwm_start(tim_t *obj, tim_ch_t channel) {
-    // get handler and enable timer
     TIM_HandleTypeDef *handler = _get_handler(obj);
     if (NULL == handler) {
         return MM_ERROR;
     }
-    status_t status;
-    status = HAL_TIM_PWM_Start(handler, (uint32_t) channel);
-    if (MM_OK != status) {
+    if (HAL_TIM_PWM_Start(handler, (uint32_t) channel) != HAL_OK) {
         MM_DEBUG_WARNING("Error starting PWM ch!\r\n");
+        return MM_ERROR;
     }
-    return status;
+    return MM_OK;
 }
 
 
 status_t pwm_stop(tim_t *obj, tim_ch_t channel) {
-    // get handler and enable timer
     TIM_HandleTypeDef *handler = _get_handler(obj);
     if (NULL == handler) {
         return MM_ERROR;
     }
-    status_t status;
+    HAL_StatusTypeDef status;
     switch (channel) {
         case CH_1:
             status = HAL_TIM_PWM_Stop(handler, TIM_CHANNEL_1);
@@ -194,10 +195,11 @@ status_t pwm_stop(tim_t *obj, tim_ch_t channel) {
             MM_DEBUG_ERROR("Choose correct channel!\r\n");
             return MM_ERROR;
     }
-    if (MM_OK != status) {
-        MM_DEBUG_WARNING("Error stopping PWM ch!\r\n");
+    if (status != HAL_OK) {
+        MM_DEBUG_ERROR("Error stopping PWM ch!\r\n");
+        return MM_ERROR;
     }
-    return status;
+    return MM_OK;
 }
 
 

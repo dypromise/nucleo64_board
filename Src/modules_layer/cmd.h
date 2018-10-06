@@ -8,6 +8,8 @@
 #ifndef MOTION_CONTROLLER_H_
 #define MOTION_CONTROLLER_H_
 
+#include "thread_control_loop.h"
+#include "pid.h"
 
 #ifdef __cplusplus
 extern "C" {

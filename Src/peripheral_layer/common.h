@@ -14,14 +14,14 @@
 #ifdef MM_DEBUG
 #if defined(MM_DEBUG_TO_TERMINAL)
 #include "terminal.h"
-#define DEBUG_MSG(msg, ...)    terminal_printf("MM_LIB:" MM_MSG_BASE ":%d:" msg, __LINE__ ,##__VA_ARGS__)
-#define DEBUG_WARNING(msg, ...)    terminal_printf("MM_LIB:" MM_MSG_BASE ":%d:Warning:" msg, __LINE__ , ##__VA_ARGS__)
-#define DEBUG_ERROR(msg, ...)    terminal_printf("MM_LIB:" MM_MSG_BASE ":%d:Error: " msg, __LINE__ , ##__VA_ARGS__)
+#define MM_DEBUG_MSG(msg, ...)    terminal_printf("[INFO][In " MM_MSG_BASE ", line %d]: " msg, __LINE__ ,##__VA_ARGS__)
+#define MM_DEBUG_WARNING(msg, ...)    terminal_printf("[WARNING][In " MM_MSG_BASE ", line %d]: " msg, __LINE__ , ##__VA_ARGS__)
+#define MM_DEBUG_ERROR(msg, ...)    terminal_printf("[ERROR][In " MM_MSG_BASE ", line %d]: " msg, __LINE__ , ##__VA_ARGS__)
 #elif defined(MM_DEBUG_TO_SEMIHOSTING)
 #include "trace.h"
-#define MM_DEBUG_MSG(msg, ...)	trace_printf("MM_LIB:" MM_MSG_BASE ":%d:" msg, __LINE__ , ##__VA_ARGS__)
-#define MM_DEBUG_WARNING(msg, ...)	trace_printf("MM_LIB:" MM_MSG_BASE ":%d:Warning:" msg, __LINE__ , ##__VA_ARGS__)
-#define MM_DEBUG_ERROR(msg, ...)	trace_printf("MM_LIB:" MM_MSG_BASE ":%d:Error: " msg, __LINE__ , ##__VA_ARGS__)
+#define MM_DEBUG_MSG(msg, ...)	trace_printf("[INFO][In " MM_MSG_BASE ", line %d]: " msg, __LINE__ ,##__VA_ARGS__)
+#define MM_DEBUG_WARNING(msg, ...)	trace_printf("[WARNING][In " MM_MSG_BASE ", line %d]: " msg, __LINE__ , ##__VA_ARGS__)
+#define MM_DEBUG_ERROR(msg, ...)	trace_printf("[ERROR][In " MM_MSG_BASE ", line %d]: " msg, __LINE__ , ##__VA_ARGS__)
 #else
 #error "Define either DEBUG_TO_SEMIHOSTING or DEBUG_TO_TERMINAL. If you didn't set up Terminal, you may prefer DEBUG_TO_SEMIHOSTING."
 #endif
@@ -37,6 +37,7 @@ typedef enum {
     MM_OK = HAL_OK,
     MM_ERROR = HAL_ERROR,
     MM_BUSY = HAL_BUSY,
+    MM_TIMEOUT = HAL_TIMEOUT,
     MM_UNKNOWN = -4
 } status_t;
 

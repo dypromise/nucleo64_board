@@ -9,7 +9,7 @@
 #define FINDERINTERFACE_HPP_
 
 #include "wall.h"
-#include "direction.h"
+#include "direction.hpp"
 #include "position.h"
 #include "position_controller.h"
 

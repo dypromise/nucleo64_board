@@ -1,59 +1,53 @@
-#include <mouse_controller.h>
-#include <common.h>
-#include <Legacy/stm32_hal_legacy.h>
-#include <uart.h>
-#include <terminal.h>
+#include "common.h"
+#include "adc.h"
 #include "system_init.h"
-#include "gpio.h"
-// Algorithm
 
-void on_b1_pressed();
-
-static void wait_for_button(MouseController *mouse);
+static void on_b1_pressed(void *ctx);
 
 int main() {
 
-    // initialize clock and system configuration
+    /* Initialize clock and system configuration */
     system_init();
 
-    // Initialize all configured peripherals
+    /* Initialize all configured peripherals */
     peripheral_init();
 
-    // ADC
-    // This is A5 Pin in Nucleo-64
-    // adc_init_t adc = {
-    //         .device = RECV_ADC,
-    //         .channel = KB_ADC_CH10
-    // };
-    // adc_init(&range_front_right, &adc);
-    // adc_pin(RECV_FR_PORT, RECV_FR_PIN);
+    /* Set terminal print by default USART2 in Nucleo-64 */
+    terminal_init();
 
-    // Set interrupt button
-    gpio_init_t gpioInit{};
-    gpioInit.Mode = GPIO_MODE_INPUT;
-    gpioInit.Pull = NOPULL;
-    gpio_isr_enable(B1_PORT, B1_PIN, &gpioInit, FALLING_EDGE);
-    gpio_isr_register(B1_PORT, B1_PIN, on_b1_pressed);
+    /* Set ADC, this is A5 Pin in Nucleo-64 */
+    adc_init_t adc_setting{};
+    adc_setting.device = MM_ADC1;
+    adc_setting.channel = MM_ADC_CH5;
+    adc_setting.adc_port = PORTA;
+    adc_setting.adc_pin = PIN_5;
+    adc_t adc_handler{};
+    adc_init(&adc_handler, &adc_setting);
 
 
-//     Set toggling pin controlled by the button
-//     This pin controls the infared LED.
-//     This is A0 pin in Nucleo-64
-    gpio_init_t gpioInit2;
-    gpioInit2.Mode = GPIO_MODE_OUTPUT_PP;
-    gpioInit2.Pull = GPIO_NOPULL;
-    gpioInit2.Speed = GPIO_SPEED_LOW;
-    gpio_init(LED1_PORT, LED1_PIN, &gpioInit2);
+    /* Set interrupt button */
+    gpio_init_t button_pin_setting{};
+    button_pin_setting.Mode = GPIO_MODE_INPUT;
+    button_pin_setting.Pull = NOPULL;
+    gpio_irt_enable(B1_PORT, B1_PIN, &button_pin_setting, FALLING_EDGE);
+    gpio_irt_register(B1_PORT, B1_PIN, on_b1_pressed, &adc_handler);
 
-    int s = terminal_init();
+    /* Set LED. This is A0 pin in Nucleo-64 */
+    gpio_init_t led_pin_setting{};
+    led_pin_setting.Mode = GPIO_MODE_OUTPUT_PP;
+    led_pin_setting.Pull = GPIO_NOPULL;
+    led_pin_setting.Speed = GPIO_SPEED_LOW;
+    gpio_init(LED1_PORT, LED1_PIN, &led_pin_setting);
 
-    while (1) {
+    /* Endless loop */
+    while (true) {
     }
 
 }
 
 
-void on_b1_pressed() {
+void on_b1_pressed(void *ctx) {
+
     gpio_set(LED1_PORT, LED1_PIN, GPIO_PIN_SET);
     HAL_Delay(500);
     gpio_set(LED1_PORT, LED1_PIN, GPIO_PIN_RESET);
@@ -61,5 +55,11 @@ void on_b1_pressed() {
     gpio_set(LED1_PORT, LED1_PIN, GPIO_PIN_SET);
     HAL_Delay(500);
     gpio_set(LED1_PORT, LED1_PIN, GPIO_PIN_RESET);
-    terminal_printf("one\n");
+
+    auto adc = (adc_t *) ctx;
+    uint32_t voltage = 0;
+    if (adc_measure(adc, &voltage) != MM_OK) {
+        MM_DEBUG_ERROR("ADC WRONG.\n");
+    }
+    terminal_printf("voltage: %d\n", voltage);
 }

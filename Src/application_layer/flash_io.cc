@@ -47,7 +47,7 @@ size_t FlashIO::read(void *ptr, size_t size, size_t count) {
     return count;
 }
 
-int FlashIO::open(char *filename, char *mode) {
+int FlashIO::open(char *filename, const char *mode) {
     // When writing, it is always return yes
     if ((mode != NULL) && (*mode == 'w')) {
         return 0;

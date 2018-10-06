@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.12.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/dingyang/Public/GitHub/micromouse_projs/mms_test
+CMAKE_SOURCE_DIR = /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build
+CMAKE_BINARY_DIR = /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build
 
 # Utility rule file for UPLOAD.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build
 include CMakeFiles/UPLOAD.dir/progress.make
 
 CMakeFiles/UPLOAD:
-	arm-none-eabi-gdb -iex target\ remote\ tcp:127.0.0.1:3333 -iex monitor\ program\ /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/mms_test.elf -iex monitor\ reset\ init -iex disconnect -iex quit
+	arm-none-eabi-gdb -iex target\ remote\ tcp:127.0.0.1:3333 -iex monitor\ program\ /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/mms_test.elf -iex monitor\ reset\ init -iex disconnect -iex quit
 
 UPLOAD: CMakeFiles/UPLOAD
 UPLOAD: CMakeFiles/UPLOAD.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/UPLOAD.dir/clean:
 .PHONY : CMakeFiles/UPLOAD.dir/clean
 
 CMakeFiles/UPLOAD.dir/depend:
-	cd /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/dingyang/Public/GitHub/micromouse_projs/mms_test /Users/dingyang/Public/GitHub/micromouse_projs/mms_test /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles/UPLOAD.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles/UPLOAD.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/UPLOAD.dir/depend
 

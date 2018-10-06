@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.12.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/dingyang/Public/GitHub/micromouse_projs/mms_test
+CMAKE_SOURCE_DIR = /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build
+CMAKE_BINARY_DIR = /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/mms_test.elf.dir/depend.make
@@ -59,1490 +59,1490 @@ include CMakeFiles/mms_test.elf.dir/flags.make
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_msp_template.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_msp_template.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_msp_template.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_msp_template.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_msp_template.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_msp_template.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_msp_template.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_msp_template.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_msp_template.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_msp_template.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_msp_template.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_msp_template.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_msp_template.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_msp_template.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_msp_template.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_msp_template.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_msp_template.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_msp_template.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_msp_template.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_msp_template.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_msp_template.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_tim_template.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_tim_template.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_tim_template.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_tim_template.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_tim_template.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_tim_template.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_tim_template.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_tim_template.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_tim_template.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_tim_template.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_tim_template.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_tim_template.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_tim_template.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_tim_template.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_tim_template.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_tim_template.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_tim_template.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_tim_template.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_tim_template.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_tim_template.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_tim_template.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c > CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c.i
 
 CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c -o CMakeFiles/mms_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c.s
 
 CMakeFiles/mms_test.elf.dir/Src/application_layer/fake_io.cc.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Src/application_layer/fake_io.cc.obj: ../Src/application_layer/fake_io.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/mms_test.elf.dir/Src/application_layer/fake_io.cc.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/application_layer/fake_io.cc.obj -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/application_layer/fake_io.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/mms_test.elf.dir/Src/application_layer/fake_io.cc.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/application_layer/fake_io.cc.obj -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/application_layer/fake_io.cc
 
 CMakeFiles/mms_test.elf.dir/Src/application_layer/fake_io.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mms_test.elf.dir/Src/application_layer/fake_io.cc.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/application_layer/fake_io.cc > CMakeFiles/mms_test.elf.dir/Src/application_layer/fake_io.cc.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/application_layer/fake_io.cc > CMakeFiles/mms_test.elf.dir/Src/application_layer/fake_io.cc.i
 
 CMakeFiles/mms_test.elf.dir/Src/application_layer/fake_io.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mms_test.elf.dir/Src/application_layer/fake_io.cc.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/application_layer/fake_io.cc -o CMakeFiles/mms_test.elf.dir/Src/application_layer/fake_io.cc.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/application_layer/fake_io.cc -o CMakeFiles/mms_test.elf.dir/Src/application_layer/fake_io.cc.s
 
 CMakeFiles/mms_test.elf.dir/Src/application_layer/flash_io.cc.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Src/application_layer/flash_io.cc.obj: ../Src/application_layer/flash_io.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/mms_test.elf.dir/Src/application_layer/flash_io.cc.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/application_layer/flash_io.cc.obj -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/application_layer/flash_io.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/mms_test.elf.dir/Src/application_layer/flash_io.cc.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/application_layer/flash_io.cc.obj -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/application_layer/flash_io.cc
 
 CMakeFiles/mms_test.elf.dir/Src/application_layer/flash_io.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mms_test.elf.dir/Src/application_layer/flash_io.cc.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/application_layer/flash_io.cc > CMakeFiles/mms_test.elf.dir/Src/application_layer/flash_io.cc.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/application_layer/flash_io.cc > CMakeFiles/mms_test.elf.dir/Src/application_layer/flash_io.cc.i
 
 CMakeFiles/mms_test.elf.dir/Src/application_layer/flash_io.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mms_test.elf.dir/Src/application_layer/flash_io.cc.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/application_layer/flash_io.cc -o CMakeFiles/mms_test.elf.dir/Src/application_layer/flash_io.cc.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/application_layer/flash_io.cc -o CMakeFiles/mms_test.elf.dir/Src/application_layer/flash_io.cc.s
 
 CMakeFiles/mms_test.elf.dir/Src/application_layer/maze.cc.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Src/application_layer/maze.cc.obj: ../Src/application_layer/maze.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/mms_test.elf.dir/Src/application_layer/maze.cc.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/application_layer/maze.cc.obj -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/application_layer/maze.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/mms_test.elf.dir/Src/application_layer/maze.cc.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/application_layer/maze.cc.obj -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/application_layer/maze.cc
 
 CMakeFiles/mms_test.elf.dir/Src/application_layer/maze.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mms_test.elf.dir/Src/application_layer/maze.cc.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/application_layer/maze.cc > CMakeFiles/mms_test.elf.dir/Src/application_layer/maze.cc.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/application_layer/maze.cc > CMakeFiles/mms_test.elf.dir/Src/application_layer/maze.cc.i
 
 CMakeFiles/mms_test.elf.dir/Src/application_layer/maze.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mms_test.elf.dir/Src/application_layer/maze.cc.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/application_layer/maze.cc -o CMakeFiles/mms_test.elf.dir/Src/application_layer/maze.cc.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/application_layer/maze.cc -o CMakeFiles/mms_test.elf.dir/Src/application_layer/maze.cc.s
 
 CMakeFiles/mms_test.elf.dir/Src/application_layer/maze_io.cc.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Src/application_layer/maze_io.cc.obj: ../Src/application_layer/maze_io.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/mms_test.elf.dir/Src/application_layer/maze_io.cc.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/application_layer/maze_io.cc.obj -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/application_layer/maze_io.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/mms_test.elf.dir/Src/application_layer/maze_io.cc.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/application_layer/maze_io.cc.obj -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/application_layer/maze_io.cc
 
 CMakeFiles/mms_test.elf.dir/Src/application_layer/maze_io.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mms_test.elf.dir/Src/application_layer/maze_io.cc.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/application_layer/maze_io.cc > CMakeFiles/mms_test.elf.dir/Src/application_layer/maze_io.cc.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/application_layer/maze_io.cc > CMakeFiles/mms_test.elf.dir/Src/application_layer/maze_io.cc.i
 
 CMakeFiles/mms_test.elf.dir/Src/application_layer/maze_io.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mms_test.elf.dir/Src/application_layer/maze_io.cc.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/application_layer/maze_io.cc -o CMakeFiles/mms_test.elf.dir/Src/application_layer/maze_io.cc.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/application_layer/maze_io.cc -o CMakeFiles/mms_test.elf.dir/Src/application_layer/maze_io.cc.s
 
 CMakeFiles/mms_test.elf.dir/Src/application_layer/mouse_controller.cc.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Src/application_layer/mouse_controller.cc.obj: ../Src/application_layer/mouse_controller.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/mms_test.elf.dir/Src/application_layer/mouse_controller.cc.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/application_layer/mouse_controller.cc.obj -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/application_layer/mouse_controller.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/mms_test.elf.dir/Src/application_layer/mouse_controller.cc.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/application_layer/mouse_controller.cc.obj -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/application_layer/mouse_controller.cc
 
 CMakeFiles/mms_test.elf.dir/Src/application_layer/mouse_controller.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mms_test.elf.dir/Src/application_layer/mouse_controller.cc.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/application_layer/mouse_controller.cc > CMakeFiles/mms_test.elf.dir/Src/application_layer/mouse_controller.cc.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/application_layer/mouse_controller.cc > CMakeFiles/mms_test.elf.dir/Src/application_layer/mouse_controller.cc.i
 
 CMakeFiles/mms_test.elf.dir/Src/application_layer/mouse_controller.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mms_test.elf.dir/Src/application_layer/mouse_controller.cc.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/application_layer/mouse_controller.cc -o CMakeFiles/mms_test.elf.dir/Src/application_layer/mouse_controller.cc.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/application_layer/mouse_controller.cc -o CMakeFiles/mms_test.elf.dir/Src/application_layer/mouse_controller.cc.s
 
 CMakeFiles/mms_test.elf.dir/Src/application_layer/pid.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Src/application_layer/pid.c.obj: ../Src/application_layer/pid.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/mms_test.elf.dir/Src/application_layer/pid.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/application_layer/pid.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/application_layer/pid.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/mms_test.elf.dir/Src/application_layer/pid.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/application_layer/pid.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/application_layer/pid.c
 
 CMakeFiles/mms_test.elf.dir/Src/application_layer/pid.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Src/application_layer/pid.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/application_layer/pid.c > CMakeFiles/mms_test.elf.dir/Src/application_layer/pid.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/application_layer/pid.c > CMakeFiles/mms_test.elf.dir/Src/application_layer/pid.c.i
 
 CMakeFiles/mms_test.elf.dir/Src/application_layer/pid.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Src/application_layer/pid.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/application_layer/pid.c -o CMakeFiles/mms_test.elf.dir/Src/application_layer/pid.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/application_layer/pid.c -o CMakeFiles/mms_test.elf.dir/Src/application_layer/pid.c.s
 
 CMakeFiles/mms_test.elf.dir/Src/application_layer/position_controller.cc.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Src/application_layer/position_controller.cc.obj: ../Src/application_layer/position_controller.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/mms_test.elf.dir/Src/application_layer/position_controller.cc.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/application_layer/position_controller.cc.obj -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/application_layer/position_controller.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/mms_test.elf.dir/Src/application_layer/position_controller.cc.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/application_layer/position_controller.cc.obj -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/application_layer/position_controller.cc
 
 CMakeFiles/mms_test.elf.dir/Src/application_layer/position_controller.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mms_test.elf.dir/Src/application_layer/position_controller.cc.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/application_layer/position_controller.cc > CMakeFiles/mms_test.elf.dir/Src/application_layer/position_controller.cc.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/application_layer/position_controller.cc > CMakeFiles/mms_test.elf.dir/Src/application_layer/position_controller.cc.i
 
 CMakeFiles/mms_test.elf.dir/Src/application_layer/position_controller.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mms_test.elf.dir/Src/application_layer/position_controller.cc.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/application_layer/position_controller.cc -o CMakeFiles/mms_test.elf.dir/Src/application_layer/position_controller.cc.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/application_layer/position_controller.cc -o CMakeFiles/mms_test.elf.dir/Src/application_layer/position_controller.cc.s
 
 CMakeFiles/mms_test.elf.dir/Src/application_layer/simul_mouse.cc.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Src/application_layer/simul_mouse.cc.obj: ../Src/application_layer/simul_mouse.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object CMakeFiles/mms_test.elf.dir/Src/application_layer/simul_mouse.cc.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/application_layer/simul_mouse.cc.obj -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/application_layer/simul_mouse.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object CMakeFiles/mms_test.elf.dir/Src/application_layer/simul_mouse.cc.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/application_layer/simul_mouse.cc.obj -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/application_layer/simul_mouse.cc
 
 CMakeFiles/mms_test.elf.dir/Src/application_layer/simul_mouse.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mms_test.elf.dir/Src/application_layer/simul_mouse.cc.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/application_layer/simul_mouse.cc > CMakeFiles/mms_test.elf.dir/Src/application_layer/simul_mouse.cc.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/application_layer/simul_mouse.cc > CMakeFiles/mms_test.elf.dir/Src/application_layer/simul_mouse.cc.i
 
 CMakeFiles/mms_test.elf.dir/Src/application_layer/simul_mouse.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mms_test.elf.dir/Src/application_layer/simul_mouse.cc.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/application_layer/simul_mouse.cc -o CMakeFiles/mms_test.elf.dir/Src/application_layer/simul_mouse.cc.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/application_layer/simul_mouse.cc -o CMakeFiles/mms_test.elf.dir/Src/application_layer/simul_mouse.cc.s
 
 CMakeFiles/mms_test.elf.dir/Src/application_layer/std_io.cc.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Src/application_layer/std_io.cc.obj: ../Src/application_layer/std_io.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object CMakeFiles/mms_test.elf.dir/Src/application_layer/std_io.cc.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/application_layer/std_io.cc.obj -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/application_layer/std_io.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object CMakeFiles/mms_test.elf.dir/Src/application_layer/std_io.cc.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/application_layer/std_io.cc.obj -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/application_layer/std_io.cc
 
 CMakeFiles/mms_test.elf.dir/Src/application_layer/std_io.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mms_test.elf.dir/Src/application_layer/std_io.cc.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/application_layer/std_io.cc > CMakeFiles/mms_test.elf.dir/Src/application_layer/std_io.cc.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/application_layer/std_io.cc > CMakeFiles/mms_test.elf.dir/Src/application_layer/std_io.cc.i
 
 CMakeFiles/mms_test.elf.dir/Src/application_layer/std_io.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mms_test.elf.dir/Src/application_layer/std_io.cc.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/application_layer/std_io.cc -o CMakeFiles/mms_test.elf.dir/Src/application_layer/std_io.cc.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/application_layer/std_io.cc -o CMakeFiles/mms_test.elf.dir/Src/application_layer/std_io.cc.s
 
 CMakeFiles/mms_test.elf.dir/Src/main.cc.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Src/main.cc.obj: ../Src/main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object CMakeFiles/mms_test.elf.dir/Src/main.cc.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/main.cc.obj -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object CMakeFiles/mms_test.elf.dir/Src/main.cc.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/main.cc.obj -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/main.cc
 
 CMakeFiles/mms_test.elf.dir/Src/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mms_test.elf.dir/Src/main.cc.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/main.cc > CMakeFiles/mms_test.elf.dir/Src/main.cc.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/main.cc > CMakeFiles/mms_test.elf.dir/Src/main.cc.i
 
 CMakeFiles/mms_test.elf.dir/Src/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mms_test.elf.dir/Src/main.cc.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/main.cc -o CMakeFiles/mms_test.elf.dir/Src/main.cc.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/main.cc -o CMakeFiles/mms_test.elf.dir/Src/main.cc.s
 
 CMakeFiles/mms_test.elf.dir/Src/modules_layer/encoder.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Src/modules_layer/encoder.c.obj: ../Src/modules_layer/encoder.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/mms_test.elf.dir/Src/modules_layer/encoder.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/modules_layer/encoder.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/modules_layer/encoder.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/mms_test.elf.dir/Src/modules_layer/encoder.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/modules_layer/encoder.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/modules_layer/encoder.c
 
 CMakeFiles/mms_test.elf.dir/Src/modules_layer/encoder.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Src/modules_layer/encoder.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/modules_layer/encoder.c > CMakeFiles/mms_test.elf.dir/Src/modules_layer/encoder.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/modules_layer/encoder.c > CMakeFiles/mms_test.elf.dir/Src/modules_layer/encoder.c.i
 
 CMakeFiles/mms_test.elf.dir/Src/modules_layer/encoder.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Src/modules_layer/encoder.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/modules_layer/encoder.c -o CMakeFiles/mms_test.elf.dir/Src/modules_layer/encoder.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/modules_layer/encoder.c -o CMakeFiles/mms_test.elf.dir/Src/modules_layer/encoder.c.s
 
 CMakeFiles/mms_test.elf.dir/Src/modules_layer/infrared.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Src/modules_layer/infrared.c.obj: ../Src/modules_layer/infrared.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/mms_test.elf.dir/Src/modules_layer/infrared.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/modules_layer/infrared.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/modules_layer/infrared.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/mms_test.elf.dir/Src/modules_layer/infrared.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/modules_layer/infrared.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/modules_layer/infrared.c
 
 CMakeFiles/mms_test.elf.dir/Src/modules_layer/infrared.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Src/modules_layer/infrared.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/modules_layer/infrared.c > CMakeFiles/mms_test.elf.dir/Src/modules_layer/infrared.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/modules_layer/infrared.c > CMakeFiles/mms_test.elf.dir/Src/modules_layer/infrared.c.i
 
 CMakeFiles/mms_test.elf.dir/Src/modules_layer/infrared.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Src/modules_layer/infrared.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/modules_layer/infrared.c -o CMakeFiles/mms_test.elf.dir/Src/modules_layer/infrared.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/modules_layer/infrared.c -o CMakeFiles/mms_test.elf.dir/Src/modules_layer/infrared.c.s
 
 CMakeFiles/mms_test.elf.dir/Src/modules_layer/motor.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Src/modules_layer/motor.c.obj: ../Src/modules_layer/motor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/mms_test.elf.dir/Src/modules_layer/motor.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/modules_layer/motor.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/modules_layer/motor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/mms_test.elf.dir/Src/modules_layer/motor.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/modules_layer/motor.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/modules_layer/motor.c
 
 CMakeFiles/mms_test.elf.dir/Src/modules_layer/motor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Src/modules_layer/motor.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/modules_layer/motor.c > CMakeFiles/mms_test.elf.dir/Src/modules_layer/motor.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/modules_layer/motor.c > CMakeFiles/mms_test.elf.dir/Src/modules_layer/motor.c.i
 
 CMakeFiles/mms_test.elf.dir/Src/modules_layer/motor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Src/modules_layer/motor.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/modules_layer/motor.c -o CMakeFiles/mms_test.elf.dir/Src/modules_layer/motor.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/modules_layer/motor.c -o CMakeFiles/mms_test.elf.dir/Src/modules_layer/motor.c.s
 
 CMakeFiles/mms_test.elf.dir/Src/modules_layer/mouse.cc.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Src/modules_layer/mouse.cc.obj: ../Src/modules_layer/mouse.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object CMakeFiles/mms_test.elf.dir/Src/modules_layer/mouse.cc.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/modules_layer/mouse.cc.obj -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/modules_layer/mouse.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object CMakeFiles/mms_test.elf.dir/Src/modules_layer/mouse.cc.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/modules_layer/mouse.cc.obj -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/modules_layer/mouse.cc
 
 CMakeFiles/mms_test.elf.dir/Src/modules_layer/mouse.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mms_test.elf.dir/Src/modules_layer/mouse.cc.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/modules_layer/mouse.cc > CMakeFiles/mms_test.elf.dir/Src/modules_layer/mouse.cc.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/modules_layer/mouse.cc > CMakeFiles/mms_test.elf.dir/Src/modules_layer/mouse.cc.i
 
 CMakeFiles/mms_test.elf.dir/Src/modules_layer/mouse.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mms_test.elf.dir/Src/modules_layer/mouse.cc.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/modules_layer/mouse.cc -o CMakeFiles/mms_test.elf.dir/Src/modules_layer/mouse.cc.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/modules_layer/mouse.cc -o CMakeFiles/mms_test.elf.dir/Src/modules_layer/mouse.cc.s
 
 CMakeFiles/mms_test.elf.dir/Src/modules_layer/terminal.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Src/modules_layer/terminal.c.obj: ../Src/modules_layer/terminal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/mms_test.elf.dir/Src/modules_layer/terminal.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/modules_layer/terminal.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/modules_layer/terminal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/mms_test.elf.dir/Src/modules_layer/terminal.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/modules_layer/terminal.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/modules_layer/terminal.c
 
 CMakeFiles/mms_test.elf.dir/Src/modules_layer/terminal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Src/modules_layer/terminal.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/modules_layer/terminal.c > CMakeFiles/mms_test.elf.dir/Src/modules_layer/terminal.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/modules_layer/terminal.c > CMakeFiles/mms_test.elf.dir/Src/modules_layer/terminal.c.i
 
 CMakeFiles/mms_test.elf.dir/Src/modules_layer/terminal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Src/modules_layer/terminal.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/modules_layer/terminal.c -o CMakeFiles/mms_test.elf.dir/Src/modules_layer/terminal.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/modules_layer/terminal.c -o CMakeFiles/mms_test.elf.dir/Src/modules_layer/terminal.c.s
 
 CMakeFiles/mms_test.elf.dir/Src/modules_layer/trace.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Src/modules_layer/trace.c.obj: ../Src/modules_layer/trace.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/mms_test.elf.dir/Src/modules_layer/trace.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/modules_layer/trace.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/modules_layer/trace.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/mms_test.elf.dir/Src/modules_layer/trace.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/modules_layer/trace.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/modules_layer/trace.c
 
 CMakeFiles/mms_test.elf.dir/Src/modules_layer/trace.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Src/modules_layer/trace.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/modules_layer/trace.c > CMakeFiles/mms_test.elf.dir/Src/modules_layer/trace.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/modules_layer/trace.c > CMakeFiles/mms_test.elf.dir/Src/modules_layer/trace.c.i
 
 CMakeFiles/mms_test.elf.dir/Src/modules_layer/trace.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Src/modules_layer/trace.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/modules_layer/trace.c -o CMakeFiles/mms_test.elf.dir/Src/modules_layer/trace.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/modules_layer/trace.c -o CMakeFiles/mms_test.elf.dir/Src/modules_layer/trace.c.s
 
 CMakeFiles/mms_test.elf.dir/Src/modules_layer/trace_impl.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Src/modules_layer/trace_impl.c.obj: ../Src/modules_layer/trace_impl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/mms_test.elf.dir/Src/modules_layer/trace_impl.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/modules_layer/trace_impl.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/modules_layer/trace_impl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/mms_test.elf.dir/Src/modules_layer/trace_impl.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/modules_layer/trace_impl.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/modules_layer/trace_impl.c
 
 CMakeFiles/mms_test.elf.dir/Src/modules_layer/trace_impl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Src/modules_layer/trace_impl.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/modules_layer/trace_impl.c > CMakeFiles/mms_test.elf.dir/Src/modules_layer/trace_impl.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/modules_layer/trace_impl.c > CMakeFiles/mms_test.elf.dir/Src/modules_layer/trace_impl.c.i
 
 CMakeFiles/mms_test.elf.dir/Src/modules_layer/trace_impl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Src/modules_layer/trace_impl.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/modules_layer/trace_impl.c -o CMakeFiles/mms_test.elf.dir/Src/modules_layer/trace_impl.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/modules_layer/trace_impl.c -o CMakeFiles/mms_test.elf.dir/Src/modules_layer/trace_impl.c.s
 
 CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/adc.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/adc.c.obj: ../Src/peripheral_layer/adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/adc.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/adc.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/peripheral_layer/adc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/adc.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/adc.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/peripheral_layer/adc.c
 
 CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/adc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/adc.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/peripheral_layer/adc.c > CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/adc.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/peripheral_layer/adc.c > CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/adc.c.i
 
 CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/adc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/adc.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/peripheral_layer/adc.c -o CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/adc.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/peripheral_layer/adc.c -o CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/adc.c.s
 
 CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/flash.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/flash.c.obj: ../Src/peripheral_layer/flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/flash.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/flash.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/peripheral_layer/flash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/flash.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/flash.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/peripheral_layer/flash.c
 
 CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/flash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/flash.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/peripheral_layer/flash.c > CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/flash.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/peripheral_layer/flash.c > CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/flash.c.i
 
 CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/flash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/flash.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/peripheral_layer/flash.c -o CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/flash.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/peripheral_layer/flash.c -o CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/flash.c.s
 
 CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/gpio.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/gpio.c.obj: ../Src/peripheral_layer/gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/gpio.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/gpio.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/peripheral_layer/gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/gpio.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/gpio.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/peripheral_layer/gpio.c
 
 CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/gpio.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/peripheral_layer/gpio.c > CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/gpio.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/peripheral_layer/gpio.c > CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/gpio.c.i
 
 CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/gpio.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/peripheral_layer/gpio.c -o CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/gpio.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/peripheral_layer/gpio.c -o CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/gpio.c.s
 
 CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/interrupt_handler.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/interrupt_handler.c.obj: ../Src/peripheral_layer/interrupt_handler.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/interrupt_handler.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/interrupt_handler.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/peripheral_layer/interrupt_handler.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/interrupt_handler.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/interrupt_handler.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/peripheral_layer/interrupt_handler.c
 
 CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/interrupt_handler.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/interrupt_handler.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/peripheral_layer/interrupt_handler.c > CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/interrupt_handler.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/peripheral_layer/interrupt_handler.c > CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/interrupt_handler.c.i
 
 CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/interrupt_handler.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/interrupt_handler.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/peripheral_layer/interrupt_handler.c -o CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/interrupt_handler.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/peripheral_layer/interrupt_handler.c -o CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/interrupt_handler.c.s
 
 CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/rotary_encoder.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/rotary_encoder.c.obj: ../Src/peripheral_layer/rotary_encoder.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/rotary_encoder.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/rotary_encoder.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/peripheral_layer/rotary_encoder.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/rotary_encoder.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/rotary_encoder.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/peripheral_layer/rotary_encoder.c
 
 CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/rotary_encoder.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/rotary_encoder.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/peripheral_layer/rotary_encoder.c > CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/rotary_encoder.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/peripheral_layer/rotary_encoder.c > CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/rotary_encoder.c.i
 
 CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/rotary_encoder.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/rotary_encoder.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/peripheral_layer/rotary_encoder.c -o CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/rotary_encoder.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/peripheral_layer/rotary_encoder.c -o CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/rotary_encoder.c.s
 
 CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/system_init.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/system_init.c.obj: ../Src/peripheral_layer/system_init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/system_init.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/system_init.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/peripheral_layer/system_init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/system_init.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/system_init.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/peripheral_layer/system_init.c
 
 CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/system_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/system_init.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/peripheral_layer/system_init.c > CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/system_init.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/peripheral_layer/system_init.c > CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/system_init.c.i
 
 CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/system_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/system_init.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/peripheral_layer/system_init.c -o CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/system_init.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/peripheral_layer/system_init.c -o CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/system_init.c.s
 
 CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/tick.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/tick.c.obj: ../Src/peripheral_layer/tick.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/tick.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/tick.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/peripheral_layer/tick.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/tick.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/tick.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/peripheral_layer/tick.c
 
 CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/tick.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/tick.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/peripheral_layer/tick.c > CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/tick.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/peripheral_layer/tick.c > CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/tick.c.i
 
 CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/tick.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/tick.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/peripheral_layer/tick.c -o CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/tick.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/peripheral_layer/tick.c -o CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/tick.c.s
 
 CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/tim.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/tim.c.obj: ../Src/peripheral_layer/tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/tim.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/tim.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/peripheral_layer/tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/tim.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/tim.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/peripheral_layer/tim.c
 
 CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/tim.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/peripheral_layer/tim.c > CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/tim.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/peripheral_layer/tim.c > CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/tim.c.i
 
 CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/tim.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/peripheral_layer/tim.c -o CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/tim.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/peripheral_layer/tim.c -o CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/tim.c.s
 
 CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/uart.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/uart.c.obj: ../Src/peripheral_layer/uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/uart.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/uart.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/peripheral_layer/uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/uart.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/uart.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/peripheral_layer/uart.c
 
 CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/uart.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/peripheral_layer/uart.c > CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/uart.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/peripheral_layer/uart.c > CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/uart.c.i
 
 CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/uart.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/peripheral_layer/uart.c -o CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/uart.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/peripheral_layer/uart.c -o CMakeFiles/mms_test.elf.dir/Src/peripheral_layer/uart.c.s
 
 CMakeFiles/mms_test.elf.dir/Src/system_stm32f4xx.c.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/Src/system_stm32f4xx.c.obj: ../Src/system_stm32f4xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/mms_test.elf.dir/Src/system_stm32f4xx.c.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/system_stm32f4xx.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/system_stm32f4xx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/mms_test.elf.dir/Src/system_stm32f4xx.c.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mms_test.elf.dir/Src/system_stm32f4xx.c.obj   -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/system_stm32f4xx.c
 
 CMakeFiles/mms_test.elf.dir/Src/system_stm32f4xx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mms_test.elf.dir/Src/system_stm32f4xx.c.i"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/system_stm32f4xx.c > CMakeFiles/mms_test.elf.dir/Src/system_stm32f4xx.c.i
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/system_stm32f4xx.c > CMakeFiles/mms_test.elf.dir/Src/system_stm32f4xx.c.i
 
 CMakeFiles/mms_test.elf.dir/Src/system_stm32f4xx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mms_test.elf.dir/Src/system_stm32f4xx.c.s"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/Src/system_stm32f4xx.c -o CMakeFiles/mms_test.elf.dir/Src/system_stm32f4xx.c.s
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/Src/system_stm32f4xx.c -o CMakeFiles/mms_test.elf.dir/Src/system_stm32f4xx.c.s
 
 CMakeFiles/mms_test.elf.dir/startup/startup_stm32f446xx.s.obj: CMakeFiles/mms_test.elf.dir/flags.make
 CMakeFiles/mms_test.elf.dir/startup/startup_stm32f446xx.s.obj: ../startup/startup_stm32f446xx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building ASM object CMakeFiles/mms_test.elf.dir/startup/startup_stm32f446xx.s.obj"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/mms_test.elf.dir/startup/startup_stm32f446xx.s.obj -c /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/startup/startup_stm32f446xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building ASM object CMakeFiles/mms_test.elf.dir/startup/startup_stm32f446xx.s.obj"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/mms_test.elf.dir/startup/startup_stm32f446xx.s.obj -c /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/startup/startup_stm32f446xx.s
 
 # Object files for target mms_test.elf
 mms_test_elf_OBJECTS = \
@@ -1782,12 +1782,12 @@ mms_test.elf: CMakeFiles/mms_test.elf.dir/Src/system_stm32f4xx.c.obj
 mms_test.elf: CMakeFiles/mms_test.elf.dir/startup/startup_stm32f446xx.s.obj
 mms_test.elf: CMakeFiles/mms_test.elf.dir/build.make
 mms_test.elf: CMakeFiles/mms_test.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Linking CXX executable mms_test.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Linking CXX executable mms_test.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mms_test.elf.dir/link.txt --verbose=$(VERBOSE)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/mms_test.hex"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/mms_test.bin"
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-objcopy -Oihex /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/mms_test.elf /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/mms_test.hex
-	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-objcopy -Obinary /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/mms_test.elf /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/mms_test.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/mms_test.hex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/mms_test.bin"
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-objcopy -Oihex /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/mms_test.elf /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/mms_test.hex
+	/Users/dingyang/tools/gcc-arm-none-eabi/bin/arm-none-eabi-objcopy -Obinary /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/mms_test.elf /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/mms_test.bin
 
 # Rule to build all files generated by this target.
 CMakeFiles/mms_test.elf.dir/build: mms_test.elf
@@ -1799,6 +1799,6 @@ CMakeFiles/mms_test.elf.dir/clean:
 .PHONY : CMakeFiles/mms_test.elf.dir/clean
 
 CMakeFiles/mms_test.elf.dir/depend:
-	cd /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/dingyang/Public/GitHub/micromouse_projs/mms_test /Users/dingyang/Public/GitHub/micromouse_projs/mms_test /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build /Users/dingyang/Public/GitHub/micromouse_projs/mms_test/build/CMakeFiles/mms_test.elf.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build /Users/dingyang/Public/GitHub/micromouse_projs/nucleo64_board/build/CMakeFiles/mms_test.elf.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mms_test.elf.dir/depend
 

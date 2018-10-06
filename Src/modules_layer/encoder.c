@@ -6,43 +6,40 @@ static rotary_encoder_t _left;
 static rotary_encoder_t _right;
 
 void encoder_init(void) {
-    // init left channel
-    tim_port_pin((tim_device_t) ENCODER_L_TIMER, ENCODER_L_CHA_PORT,
+
+    /* init left wheel timer */
+    tim_port_pin(ENCODER_L_TIMER, ENCODER_L_CHA_PORT,
                  ENCODER_L_CHA_PIN,
                  ENCODER_L_PIN_PULLUP);
-    tim_port_pin((tim_device_t) ENCODER_L_TIMER, ENCODER_L_CHB_PORT,
+    tim_port_pin(ENCODER_L_TIMER, ENCODER_L_CHB_PORT,
                  ENCODER_L_CHB_PIN,
                  ENCODER_L_PIN_PULLUP);
 
-    // init right channel
-    tim_port_pin((tim_device_t) ENCODER_R_TIMER, ENCODER_R_CHA_PORT,
+    /* init right wheel timer */
+    tim_port_pin(ENCODER_R_TIMER, ENCODER_R_CHA_PORT,
                  ENCODER_R_CHA_PIN,
                  ENCODER_R_PIN_PULLUP);
-    tim_port_pin((tim_device_t) ENCODER_R_TIMER, ENCODER_R_CHB_PORT,
+    tim_port_pin(ENCODER_R_TIMER, ENCODER_R_CHB_PORT,
                  ENCODER_R_CHB_PIN,
                  ENCODER_R_PIN_PULLUP);
 
-    // init timer
-    // left channel
+    /* init */
     rotary_encoder_init_t enc_setting = {
-            .device = (rotary_encoder_device_t) ENCODER_L_TIMER,
-            .direction = ANTI_CW,
+            .device = ENCODER_L_TIMER,
+            .direction = CW,
             .prescaler = 0x0U
     };
     rotary_encoder_init(&_left, &enc_setting);
-
-    // right channel
     enc_setting = (rotary_encoder_init_t) {
-            .device = (rotary_encoder_device_t) ENCODER_R_TIMER,
+            .device = ENCODER_R_TIMER,
             .direction = CW,
             .prescaler = 0x0U
     };
     rotary_encoder_init(&_right, &enc_setting);
 
-    // start encoders
+    /* start encoders */
     rotary_encoder_start(&_left);
     rotary_encoder_start(&_right);
-
     encoder_reset(ENCODER_CH_BOTH);
 }
 
@@ -50,7 +47,6 @@ void encoder_get(struct encoder_data *out, enum encoder_ch ch) {
     if (NULL == out) {
         return;
     }
-    // Get
     switch (ch) {
         case ENCODER_CH_LEFT:
             out->left = rotary_encoder_count(&_left);
@@ -66,7 +62,6 @@ void encoder_get(struct encoder_data *out, enum encoder_ch ch) {
 }
 
 void encoder_reset(enum encoder_ch ch) {
-    // Get
     switch (ch) {
         case ENCODER_CH_LEFT:
             rotary_encoder_set(&_left, MEASURE_ENCODER_DEFAULT);
