@@ -16,18 +16,11 @@ set(SIZE arm-none-eabi-size)
 
 SET(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F446RETx_FLASH.ld)
 
-add_definitions(-DSTM32F4 -DSTM32 -DMM_DEBUG -DMM_DEBUG_TO_TERMINAL)
-
-#Uncomment for hardware floating point
-#SET(FPU_FLAGS "-mfloat-abi=hard -mfpu=fpv4-sp-d16")
-#add_definitions(-DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -D__FPU_PRESENT=1 )
 
 #Uncomment for software floating point
-#SET(FPU_FLAGS "-mfloat-abi=soft")
 SET(FPU_FLAGS "-mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp")
-
-SET(COMMON_FLAGS "-mcpu=cortex-m4 ${FPU_FLAGS} -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs")
-
+SET(COMMON_FLAGS "-mcpu=cortex-m4 ${FPU_FLAGS} -mthumb -mthumb-interwork -ffunction-sections \
+-fdata-sections -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs")
 SET(CMAKE_CXX_FLAGS_INIT "${COMMON_FLAGS} -std=c++11")
 SET(CMAKE_C_FLAGS_INIT "${COMMON_FLAGS} -std=gnu99")
 SET(CMAKE_EXE_LINKER_FLAGS_INIT "-Wl,-gc-sections -T ${LINKER_SCRIPT}")
@@ -35,8 +28,9 @@ SET(CMAKE_EXE_LINKER_FLAGS_INIT "-Wl,-gc-sections -T ${LINKER_SCRIPT}")
 PROJECT(mms_test C CXX ASM)
 set(CMAKE_CXX_STANDARD 11)
 
-#add_definitions(-DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -D__FPU_PRESENT=1 )
 add_definitions(-D__weak=__attribute__\(\(weak\)\) -D__packed=__attribute__\(\(__packed__\)\) -DUSE_HAL_DRIVER -DSTM32F446xx )
+add_definitions(-DSTM32F4 -DSTM32 -DMM_DEBUG -DMM_DEBUG_TO_TERMINAL -DMM_USE_FREERTOS -DMM_TRACE)
+
 
 file(GLOB_RECURSE SOURCES "startup/*.*" "Drivers/*.*" "Src/*.*" "Inc/*.*")
 
@@ -47,11 +41,9 @@ include_directories(Inc Drivers/STM32F4xx_HAL_Driver/Inc
         Drivers/FreeRTOS/Source/CMSIS_RTOS
         Drivers/FreeRTOS/Source/include
         Drivers/FreeRTOS/Source/portable
-
         Src/peripheral_layer
         Src/modules_layer
         Src/application_layer
-
         Drivers/FreeRTOS/Source/CMSIS_RTOS
         Drivers/FreeRTOS/Source/include
         Drivers/FreeRTOS/Source/portable/GCC/ARM_CM4F
