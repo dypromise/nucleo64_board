@@ -84,7 +84,7 @@
  *----------------------------------------------------------*/
 #include "common.h"
 
-#ifndef MM_USE_FREERTOS
+#ifndef USE_FREERTOS
 #error "Please define KB_USE_FREERTOS in config.h to use FreeRTOS with lib!!"
 #endif
 

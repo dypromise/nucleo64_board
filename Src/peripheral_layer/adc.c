@@ -10,6 +10,8 @@
 /* Fuctions that converts MM library name to manufacturer name */
 static ADC_TypeDef *_get_device(adc_device_t dev);
 
+static adc_handle_t *_get_handler(adc_device_t dev);
+
 static uint32_t _get_channel(adc_ch_t ch);
 
 /* Peripheral clock function */
@@ -19,23 +21,20 @@ static void _adc_error_handler();
 
 static int _adc_pin_set(gpio_port_t port, gpio_pin_t pin);
 
+static adc_handle_t adc1_handler;
+static adc_handle_t adc2_handler;
+static adc_handle_t adc3_handler;
+
 /******************************************************************************
  * Public API Functions
  ******************************************************************************/
 /* Initialization functions */
 int adc_init(adc_t *obj, adc_init_t *settings) {
 
-    adc_handle_t *handler = malloc(sizeof(ADC_HandleTypeDef));
+    adc_handle_t *handler = _get_handler(settings->device);
     obj->handler = handler;
     /* Configure the ADC peripheral */
     obj->handler->Instance = _get_device(settings->device);
-
-    /* De-initialize before initialization */
-    if (HAL_ADC_DeInit(obj->handler) != HAL_OK) {
-        /* ADC de-initialization Error */
-        MM_DEBUG_ERROR("ADC device de-initialization error!\r\n");
-        return MM_ERROR;
-    }
 
     /* Initialize ADC hardware */
     // Enable ADC Clock first
@@ -201,4 +200,17 @@ int _adc_pin_set(gpio_port_t port, gpio_pin_t pin) {
     };
     gpio_init(port, pin, &gpio_setting);
     return MM_OK;
+}
+
+adc_handle_t *_get_handler(adc_device_t dev) {
+    switch (dev) {
+        case MM_ADC1:
+            return &adc1_handler;
+        case MM_ADC2:
+            return &adc2_handler;
+        case MM_ADC3:
+            return &adc3_handler;
+        default:
+            return NULL;
+    }
 }

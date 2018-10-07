@@ -29,10 +29,10 @@ PROJECT(mms_test C CXX ASM)
 set(CMAKE_CXX_STANDARD 11)
 
 add_definitions(-D__weak=__attribute__\(\(weak\)\) -D__packed=__attribute__\(\(__packed__\)\) -DUSE_HAL_DRIVER -DSTM32F446xx )
-add_definitions(-DSTM32F4 -DSTM32 -DMM_DEBUG -DMM_DEBUG_TO_TERMINAL -DMM_USE_FREERTOS -DMM_TRACE)
+add_definitions(-DSTM32F4 -DSTM32 -DMM_DEBUG -DMM_DEBUG_TO_TERMINAL -DUSE_FREERTOS -DMM_TRACE)
 
 
-file(GLOB_RECURSE SOURCES "startup/*.*" "Drivers/*.*" "Src/*.*" "Inc/*.*")
+file(GLOB_RECURSE SOURCES "startup/*.*" "Drivers/*.*" "Src/*.*" "Inc/*.*" "blinky_nucleo64/*.*")
 
 include_directories(Inc Drivers/STM32F4xx_HAL_Driver/Inc
         Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
